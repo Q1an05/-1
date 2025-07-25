@@ -136,7 +136,9 @@ def visualize_results(t_full, M_data, M_fitted, f1_flow, f2_flow, f3_flow, f4_fl
     axs[2].grid(True)
 
     plt.tight_layout()
+    plt.savefig('figs/problem_solver_q2.png')
     plt.show()
+
 
 # ==============================================================================
 # 3. 主求解器函数
