@@ -1,8 +1,12 @@
-import scripts.resource_processor as rp
-
-
-#excel文件路径
-excel_file_path = 'resource/B题-支路车流量推测问题 附件(Attachment).xlsx'
+import scripts.problem_solver_q1 as psq1
 
 #第一题
-df1 = rp.read_excel("表1 (Table 1)", excel_file_path)
+psq1.solve_problem_and_visualize_q1()
+
+#第二题
+
+#第三题
+
+#第四题
+
+#第五题
